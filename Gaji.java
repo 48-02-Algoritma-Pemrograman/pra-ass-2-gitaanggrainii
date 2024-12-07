@@ -2,6 +2,14 @@
 
 public class Gaji{
     public static int masaKerja;
+        int gajiBulanan = gaji(masaKerja);
+        int lemburBulanan = lembur(masaKerja);
+
+        lemburBulanan*=jamLembur;
+        gajiBulanan+=lemburBulanan;
+
+        System.out.println(gajiBulanan);
+       
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
@@ -9,7 +17,15 @@ public class Gaji{
         int jamLembur = input.nextInt();
 
         /* Pekerjaan anda mulai dari sini */
+     
+        int gajiBulanan = gaji(masaKerja);
+        int lemburBulanan = lembur(masaKerja);
 
+        lemburBulanan*=jamLembur;
+        gajiBulanan+=lemburBulanan;
+
+        System.out.println(gajiBulanan);
+        
         /* Pekerjaan anda berakhir sini */
 
         System.out.println(Gaji.class.getDeclaredMethods().length);
