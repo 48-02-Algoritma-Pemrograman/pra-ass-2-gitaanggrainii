@@ -19,7 +19,7 @@ jobs:
       with:
         test-name: DI bawah 5 tahun tanpa lembur
         setup-command: javac Gaji.java
-        command: java Gaji
+        command: javac Gaji
         input: |-
           4
           0
@@ -36,7 +36,7 @@ jobs:
       with:
         test-name: Di bawah 5 tahun dengan lembur
         setup-command: javac Gaji.java
-        command: java Gaji
+        command: javac Gaji
         input: |-
           4
           5
@@ -53,7 +53,7 @@ jobs:
       with:
         test-name: Antara 5 dan 10 tanpa lembur
         setup-command: javac Gaji.java
-        command: java Gaji
+        command: javac Gaji
         input: |-
           5
           0
@@ -70,7 +70,7 @@ jobs:
       with:
         test-name: Antara 5 dan 10 dengan lembur
         setup-command: javac Gaji.java
-        command: java Gaji
+        command: javac Gaji
         input: |-
           10
           3
@@ -87,7 +87,7 @@ jobs:
       with:
         test-name: Di atas 10 tanpa lembur
         setup-command: javac Gaji.java
-        command: java Gaji
+        command: javac Gaji
         input: |-
           11
           0
@@ -104,7 +104,7 @@ jobs:
       with:
         test-name: Di ataas 10 tahun dengan lembur
         setup-command: javac Gaji.java
-        command: java Gaji
+        command: javac Gaji
         input: |-
           12
           4
@@ -121,7 +121,7 @@ jobs:
       with:
         test-name: Perhitungan
         setup-command: javac Hitung.java
-        command: java Hitung
+        command: javac Hitung
         input: |-
           5
           Y
